@@ -47,7 +47,7 @@ gradle clean test -DbaseURL=ваш базовый URL
 ```
 ## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/15ronin226RegresInAPI/)
 
-В качестве CI в проекте использован сервис Jenkins Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать сейчас*</strong></code>.
+В качестве CI в проекте использован сервис Jenkins. Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать сейчас*</strong></code>.
 
 <p align="center">
   <img src="images/screen/jenkins1.png" alt="Jenkins" width="800">
