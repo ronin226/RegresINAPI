@@ -50,20 +50,20 @@ gradle clean test -DbaseURL=ваш базовый URL
 Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать сейчас*</strong></code>.
 
 <p align="center">
-  <img src="images/screen/JenkinsAPI1.png" alt="Jenkins" width="800">
+  <img src="images/screen/jenkins1.png" alt="Jenkins" width="800">
 </p>
 
 После выполнения сборки, в блоке <code><strong>*История сборок*</strong></code> напротив номера сборки отобразятся
 иконки *Allure Report* и *Allure TestOPS*, которые по клику открывают страницы соответствующих отчетов.
 
 <p align="center">
-  <img src="images/screen/jENKINSapi2.png" alt="Jenkins" width="800">
+  <img src="images/screen/jenkins2.png" alt="Jenkins" width="800">
 </p>
 
 ## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/15_%20RegresIn_APIAutotestsProject_Abramova/3/allure/)
 
 <p align="center">
-  <img src="images/screen/AllureApi.png" alt="allure-report1" width="900">
+  <img src="images/screen/allureTO1.png" alt="allure-report1" width="900">
 </p>
 
 
