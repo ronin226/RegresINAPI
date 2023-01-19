@@ -45,7 +45,7 @@ gradle clean test
 ```bash
 gradle clean test -DbaseURL=ваш базовый URL
 ```
-## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/15_%20RegresIn_APIAutotestsProject_Abramova/)
+## <img width="4%" title="Jenkins" src="images/logo/Jenkins.svg"> Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/15ronin226RegresInAPI/)
 
 Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать сейчас*</strong></code>.
 
@@ -60,38 +60,24 @@ gradle clean test -DbaseURL=ваш базовый URL
   <img src="images/screen/jenkins2.png" alt="Jenkins" width="800">
 </p>
 
-## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/15_%20RegresIn_APIAutotestsProject_Abramova/3/allure/)
+## <img width="4%" title="Allure Report" src="images/logo/Allure.svg"> Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/15ronin226RegresInAPI/allure/)
 
 <p align="center">
-  <img src="images/screen/allureTO1.png" alt="allure-report1" width="900">
+  <img src="images/screen/allureRep1.png" alt="allure-report1" width="900">
 </p>
 
 
-## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18491)
+## <img width="4%" title="Allure TestOPS" src="images/logo/Allure_TO.svg"> Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18601)
 
 ### Основной дашборд
 
 <p align="center">
-  <img src="images/screen/testopsAPI2.png" alt="dashboard" width="900">
+  <img src="images/screen/allureTO1.png" alt="dashboard" width="900">
 </p>
 
-### Список тестов с результатами прогона
+### Список тестов с результатами тестирования
 
 <p align="center">
-  <img src="images/screen/testopsAPI3.png" alt="dashboard" width="900">
+  <img src="images/screen/allureTO2.png" alt="dashboard" width="900">
 </p>
 
-### Список тест-кейсов, сформированных в результате прогона
-
-<p align="center">
-  <img src="images/screen/allureAPI4.png" alt="dashboard" width="900">
-</p>
-
-## <img width="4%" title="Telegram" src="images/logo/Telegram.svg"> Уведомления в Telegram с использованием бота
-После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
-
-<p align="center">
-<img title="Telegram Notifications" src="images/screen/telegramAPI2.png">
-
-
-</p>
