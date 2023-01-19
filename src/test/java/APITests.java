@@ -12,7 +12,7 @@ import static specs.Spec.loginRequestSpec;
 public class APITests {
     @Test
     @Owner("KalachevD.")
-    @DisplayName("")
+    @DisplayName("Успешная регистрация пользователя")
     public void registerUserSuccess() {
         lombokModel body = new lombokModel();
         body.setEmail("eve.holt@reqres.in");
@@ -30,7 +30,7 @@ public class APITests {
 
     @Test
     @Owner("KalachevD.")
-    @DisplayName("")
+    @DisplayName("Вызов списка пользователей")
     public void userList() {
         given()
                 .spec(loginRequestSpec).
@@ -62,7 +62,7 @@ public class APITests {
 
     @Test
     @Owner("KalachevD.")
-    @DisplayName("")
+    @DisplayName("Вход пользователя в систему")
     public void userLoginSuccess() {
         lombokModel body = new lombokModel();
         body.setEmail("eve.holt@reqres.in");
@@ -79,7 +79,7 @@ public class APITests {
 
     @Test
     @Owner("KalachevD.")
-    @DisplayName("")
+    @DisplayName("Неуспешный вход пользователя в систему")
     public void userLoginFail() {
         lombokModel body = new lombokModel();
         body.setEmail("eve.holt@reqres.in");
@@ -94,7 +94,7 @@ public class APITests {
 
     @Test
     @Owner("KalachevD.")
-    @DisplayName("")
+    @DisplayName("Проверка наличия емейла конкретного пользователя в списке пользователей")
     void checkExistingUserEmailGroovy() {
         given(loginRequestSpec)
                 .when()
