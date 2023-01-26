@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.Matchers.hasItem;
 import static specs.Spec.loginRequestSpec;
 
-public class APITests {
+public class RegresINTests {
     @Test
     @Owner("KalachevD.")
     @DisplayName("Успешная регистрация пользователя")
